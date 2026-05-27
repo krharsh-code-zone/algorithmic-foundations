@@ -15,7 +15,7 @@ A robust implementation of partition-based clustering with optimized centroid in
 * **Dynamic Adjustments:** The `adjusted_centeroids` function iteratively recalculates cluster centers based on the mean coordinates of all assigned local data points until convergence is achieved.
 
 *(Example visualization placeholder - add your matplotlib scatter plot here)*
-![K-Means++ Clustering Output](./images/kmeans_output.png)
+![K-Means++ Clustering Output](./images/kmeans++.png)
 
 ### 2. DBSCAN (`dbscan_learning.ipynb`)
 A Density-Based Spatial Clustering of Applications with Noise (DBSCAN) implementation featuring custom neighborhood evaluation and recursive expansion.
@@ -25,7 +25,7 @@ A Density-Based Spatial Clustering of Applications with Noise (DBSCAN) implement
 * **Recursive Cluster Expansion:** Utilizes a custom `visited()` function that recursively acts as a Depth-First Search (DFS) to expand the cluster, properly tagging points as core points, border points, or noise (`-1`).
 
 *(Example visualization placeholder - add your matplotlib scatter plot here)*
-![DBSCAN Clustering Output](./images/dbscan_output.png)
+![DBSCAN Clustering Output](./images/dbscan.png)
 
 ## Tech Stack
 * **Python 3**
