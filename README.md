@@ -10,10 +10,9 @@ This repository is organized by algorithmic family. Each directory contains its 
 
 ```text
 ml-algorithms-from-scratch/
-├── README.md                  # This file
-├── data/                      # Shared sample datasets (using relative paths)
-├── clustering/                # Unsupervised clustering algorithms
+├── README.md
+├── clustering/
 │   ├── README.md
 │   ├── k_mean++.ipynb
 │   └── dbscan_learning.ipynb
-└── future_implementations/    # (e.g., neural_networks, embeddings, etc.)
+└── future_implementations/    
